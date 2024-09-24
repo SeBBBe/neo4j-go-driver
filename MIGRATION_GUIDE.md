@@ -6,13 +6,13 @@ All import statements need to be changed.
 
 ```go
 // 1.x
-import "github.com/neo4j/neo4j-go-driver/neo4j"
+import "github.com/SeBBBe/neo4j-go-driver/neo4j"
 
 // 4.x, note the new v4 within the package name!
-import "github.com/neo4j/neo4j-go-driver/v4/neo4j"
+import "github.com/SeBBBe/neo4j-go-driver/v4/neo4j"
 
 // 5.x, note the new v5 within the package name!
-import "github.com/neo4j/neo4j-go-driver/v5/neo4j"
+import "github.com/SeBBBe/neo4j-go-driver/v5/neo4j"
 ```
 
 Note that it is possible to migrate a piece at the time by using both drivers

@@ -25,11 +25,11 @@ import (
 	"testing"
 	"time"
 
-	idb "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/db"
+	idb "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/db"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/db"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/dbtype"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/packstream"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/dbtype"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/packstream"
 )
 
 type hydratorTestCase struct {
@@ -1072,7 +1072,7 @@ func TestHydratorBolt5(outer *testing.T) {
 // TestHydratorPathWithEdgeCaseSizes ensures that the hydrator does not panic due to integer overflow
 // when handling the size of nodes, unbound relationships, and indices that are between the upper bounds of
 // signed and unsigned integers. This test case was created due to a bug identified in
-// GitHub issue #590 (https://github.com/neo4j/neo4j-go-driver/issues/590).
+// GitHub issue #590 (https://github.com/SeBBBe/neo4j-go-driver/issues/590).
 func TestHydratorPathIntegerOverflowScenarios(outer *testing.T) {
 	type hydratorPathTestCase struct {
 		name string

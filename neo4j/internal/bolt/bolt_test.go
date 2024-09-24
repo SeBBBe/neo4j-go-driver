@@ -19,8 +19,8 @@ package bolt
 
 import (
 	"context"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/db"
-	idb "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/db"
+	idb "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/db"
 )
 
 type noopErrorListener struct{}

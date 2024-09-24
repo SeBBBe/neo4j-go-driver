@@ -20,16 +20,16 @@ package test_integration
 import (
 	"context"
 	"crypto/rand"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/dbtype"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/dbtype"
 	"math"
 	"math/big"
 	"reflect"
 	"strings"
 	"testing"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/test-integration/dbserver"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/test-integration/dbserver"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j"
 )
 
 // Not the best place for this...

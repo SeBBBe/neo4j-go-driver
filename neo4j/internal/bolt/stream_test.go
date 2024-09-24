@@ -19,11 +19,11 @@ package bolt
 
 import (
 	"errors"
-	idb "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/db"
+	idb "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/db"
 	"testing"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/db"
-	. "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/testutil"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/db"
+	. "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/testutil"
 )
 
 func TestStream(ot *testing.T) {

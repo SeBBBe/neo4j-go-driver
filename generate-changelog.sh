@@ -2,7 +2,7 @@
 
 set -Eeuxo pipefail
 
-FORMAT=${FORMAT:-' - [[%h]](https://github.com/neo4j/neo4j-go-driver/commit/%H) %s'}
+FORMAT=${FORMAT:-' - [[%h]](https://github.com/SeBBBe/neo4j-go-driver/commit/%H) %s'}
 
 get_history() {
   local start_tag

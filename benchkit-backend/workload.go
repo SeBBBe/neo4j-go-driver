@@ -20,7 +20,7 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j"
 	"strconv"
 	"sync"
 )

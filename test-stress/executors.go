@@ -21,7 +21,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j"
 )
 
 func ExpectNoError(err error) {

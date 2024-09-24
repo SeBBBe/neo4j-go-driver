@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/db"
-	idb "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/db"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/errorutil"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/testutil"
-	itime "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/time"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/log"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/db"
+	idb "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/errorutil"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/testutil"
+	itime "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/time"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/log"
 )
 
 type TStateInvocation struct {

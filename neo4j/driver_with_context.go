@@ -25,13 +25,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/auth"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/connector"
-	idb "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/db"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/errorutil"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/pool"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/router"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/log"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/auth"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/connector"
+	idb "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/errorutil"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/pool"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/router"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/log"
 )
 
 // AccessMode defines modes that routing driver decides to which cluster member
@@ -671,7 +671,6 @@ func ExecuteQueryWithTransactionConfig(configurers ...func(*TransactionConfig)) 
 		configuration.TransactionConfigurers = configurers
 	}
 }
-
 
 // ExecuteQueryWithAuthToken configures neo4j.ExecuteQuery to overwrite the AuthToken for the session.
 func ExecuteQueryWithAuthToken(auth AuthToken) ExecuteQueryConfigurationOption {

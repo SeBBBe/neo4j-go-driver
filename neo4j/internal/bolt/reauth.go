@@ -18,8 +18,8 @@
 package bolt
 
 import (
-	idb "github.com/neo4j/neo4j-go-driver/v5/neo4j/db"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/db"
+	idb "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/db"
 )
 
 func checkReAuth(auth *db.ReAuthToken, connection db.Connection) error {

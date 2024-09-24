@@ -19,7 +19,7 @@ Make sure your application has been set up to use go modules (there should be a 
 Add the driver with:
 
 ```shell
-go get github.com/neo4j/neo4j-go-driver/v5
+go get github.com/SeBBBe/neo4j-go-driver/v5
 ```
 
 #### 4.x
@@ -27,7 +27,7 @@ go get github.com/neo4j/neo4j-go-driver/v5
 Add the driver with:
 
 ```shell
-go get github.com/neo4j/neo4j-go-driver/v4
+go get github.com/SeBBBe/neo4j-go-driver/v4
 ```
 
 #### 1.x
@@ -35,13 +35,13 @@ go get github.com/neo4j/neo4j-go-driver/v4
 For versions 1.x of the driver (notice the absence of `/v4` or `/v5`), run instead the following:
 
 ```shell
-go get github.com/neo4j/neo4j-go-driver
+go get github.com/SeBBBe/neo4j-go-driver
 ```
 
 ## Documentation
 
 Drivers manual that describes general driver concepts in depth [here](https://neo4j.com/docs/go-manual/current/).
-Go package API documentation [here](https://pkg.go.dev/github.com/neo4j/neo4j-go-driver/v5/neo4j).
+Go package API documentation [here](https://pkg.go.dev/github.com/SeBBBe/neo4j-go-driver/v5/neo4j).
 
 ## Preview Features
 
@@ -60,7 +60,7 @@ Due to the increased flexibility of the preview status, user feedback is encoura
 the GA status.
 
 Every preview feature gets a
-dedicated [GitHub Discussion](https://github.com/neo4j/neo4j-go-driver/discussions/categories/preview-feature-announcement)
+dedicated [GitHub Discussion](https://github.com/SeBBBe/neo4j-go-driver/discussions/categories/preview-feature-announcement)
 where users can share their initial impressions and thoughts.
 
 ## Migrating from previous versions
@@ -80,7 +80,7 @@ package main
 import (
     "context"
     "fmt"
-    "github.com/neo4j/neo4j-go-driver/v5/neo4j"
+    "github.com/SeBBBe/neo4j-go-driver/v5/neo4j"
 )
 
 func main() {

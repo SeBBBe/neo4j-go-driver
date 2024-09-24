@@ -20,7 +20,7 @@ package neo4j
 import (
 	"context"
 	"fmt"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/notifications"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/notifications"
 	"os"
 )
 

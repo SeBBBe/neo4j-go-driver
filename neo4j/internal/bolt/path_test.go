@@ -20,7 +20,7 @@ package bolt
 import (
 	"testing"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/dbtype"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/dbtype"
 )
 
 func TestBuildPath(ot *testing.T) {

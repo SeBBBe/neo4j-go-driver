@@ -1,8 +1,8 @@
 package notifications
 
 import (
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/db"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/notifications"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/notifications"
 )
 
 func newDefaultDiagnosticRecord() map[string]any {

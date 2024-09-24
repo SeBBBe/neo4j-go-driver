@@ -19,15 +19,15 @@ package bolt
 
 import (
 	"context"
-	idb "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/db"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/log"
+	idb "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/log"
 	"io"
 	"reflect"
 	"time"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/db"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/dbtype"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/packstream"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/dbtype"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/packstream"
 )
 
 type outgoing struct {

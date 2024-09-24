@@ -20,9 +20,9 @@ package neo4j
 import (
 	"context"
 	"fmt"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/db"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/errorutil"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/retry"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/errorutil"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/retry"
 )
 
 // IsRetryable determines whether an operation can be retried based on the error

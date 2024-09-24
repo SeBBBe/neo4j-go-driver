@@ -19,10 +19,10 @@ package test_integration
 
 import (
 	"context"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/config"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/log"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/test-integration/dbserver"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/config"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/log"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/test-integration/dbserver"
 	"testing"
 )
 

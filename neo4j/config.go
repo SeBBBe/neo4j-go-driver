@@ -18,10 +18,10 @@
 package neo4j
 
 import (
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/config"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/bolt"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/pool"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/notifications"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/config"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/bolt"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/pool"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/notifications"
 	"math"
 	"net/url"
 	"time"

@@ -20,14 +20,14 @@ package test_integration
 import (
 	"context"
 	"fmt"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/config"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/log"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/config"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/log"
 	"testing"
 	"time"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/db"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/test-integration/dbserver"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/test-integration/dbserver"
 )
 
 func TestSession(outer *testing.T) {

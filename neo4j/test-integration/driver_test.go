@@ -19,13 +19,13 @@ package test_integration
 
 import (
 	"context"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/config"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/config"
 	"math"
 	"testing"
 	"time"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/test-integration/dbserver"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/test-integration/dbserver"
 )
 
 func TestDriver(outer *testing.T) {

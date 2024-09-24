@@ -20,16 +20,16 @@ package bolt
 import (
 	"context"
 	"fmt"
-	iauth "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/auth"
-	idb "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/db"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/notifications"
+	iauth "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/auth"
+	idb "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/notifications"
 	"io"
 	"sync"
 	"testing"
 	"time"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/db"
-	. "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/testutil"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/db"
+	. "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/testutil"
 )
 
 func TestBolt3(outer *testing.T) {

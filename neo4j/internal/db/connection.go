@@ -20,12 +20,12 @@ package db
 
 import (
 	"context"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/auth"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/db"
-	iauth "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/auth"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/telemetry"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/log"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/notifications"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/auth"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/db"
+	iauth "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/auth"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/telemetry"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/log"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/notifications"
 	"math"
 	"time"
 )

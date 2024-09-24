@@ -20,12 +20,13 @@ package test_integration
 import (
 	"context"
 	"fmt"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/test-integration/dbserver"
 	"reflect"
 	"sort"
 	"testing"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/test-integration/dbserver"
+
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j"
 )
 
 func intReturningWork(ctx context.Context, t *testing.T, query string, params map[string]any) neo4j.ManagedTransactionWork {

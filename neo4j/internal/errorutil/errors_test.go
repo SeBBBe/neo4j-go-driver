@@ -19,7 +19,7 @@ package errorutil_test
 
 import (
 	"fmt"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/errorutil"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/errorutil"
 	"reflect"
 	"testing"
 )

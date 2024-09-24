@@ -23,13 +23,13 @@ import (
 	"math"
 	"time"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/collections"
-	idb "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/db"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/errorutil"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/retry"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/telemetry"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/log"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/notifications"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/collections"
+	idb "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/errorutil"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/retry"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/telemetry"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/log"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/notifications"
 )
 
 // TransactionWork represents a unit of work that will be executed against the provided

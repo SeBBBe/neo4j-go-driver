@@ -19,11 +19,11 @@ package pool
 
 import (
 	"context"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/db"
 	"testing"
 	"time"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/testutil"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/testutil"
 )
 
 func TestServer(ot *testing.T) {

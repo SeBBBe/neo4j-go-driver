@@ -18,7 +18,7 @@
 package neo4j
 
 import (
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/notifications"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/notifications"
 	"math"
 	"testing"
 	"time"

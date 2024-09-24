@@ -27,15 +27,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/config"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/db"
-	iauth "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/auth"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/bolt"
-	idb "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/db"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/errorutil"
-	. "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/testutil"
-	itime "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/time"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/log"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/config"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/db"
+	iauth "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/auth"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/bolt"
+	idb "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/errorutil"
+	. "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/testutil"
+	itime "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/time"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/log"
 )
 
 var logger = log.ToVoid()

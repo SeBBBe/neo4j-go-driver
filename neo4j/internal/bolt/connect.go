@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/db"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/errorutil"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/racing"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/log"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/db"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/errorutil"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/racing"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/log"
 )
 
 type protocolVersion struct {

@@ -19,7 +19,7 @@ package neo4j
 
 import (
 	"context"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/collections"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/collections"
 	"sync"
 )
 

@@ -19,9 +19,9 @@ package neo4j
 
 import (
 	"fmt"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/db"
-	inotifications "github.com/neo4j/neo4j-go-driver/v5/neo4j/internal/notifications"
-	"github.com/neo4j/neo4j-go-driver/v5/neo4j/notifications"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/db"
+	inotifications "github.com/SeBBBe/neo4j-go-driver/v5/neo4j/internal/notifications"
+	"github.com/SeBBBe/neo4j-go-driver/v5/neo4j/notifications"
 	"math"
 	"sort"
 	"time"

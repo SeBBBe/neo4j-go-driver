@@ -9,7 +9,7 @@ import subprocess
 import sys
 
 
-ROOT_PACKAGE = "github.com/neo4j/neo4j-go-driver"
+ROOT_PACKAGE = "github.com/SeBBBe/neo4j-go-driver"
 
 
 def run(args):
